@@ -1,0 +1,77 @@
+{
+  "version": "1.0.0",
+  "name": "myAI_System",
+  "description": "System Management Agent - zarządzanie całą maszyną Windows",
+  "created": "2025-11-08",
+  "environment": {
+    "masterEnvPath": "C:\\myai\\.env",
+    "googleDriveEnvPath": "G:\\Mój dysk\\podreczne - mysite\\myoffice 4-0 dokumentation\\.env",
+    "googleDriveEnvPathEnvVar": "MYAI_GDRIVE_ENV"
+  },
+  "structure": {
+    "agents": {
+      "system-cleaner": {
+        "description": "Agent czyszczący system (cache, temp, node_modules, Python)",
+        "status": "active",
+        "lastRun": null
+      },
+      "disk-monitor": {
+        "description": "Agent monitorujący dyski C:\\ i D:\\",
+        "status": "active",
+        "lastRun": "2025-11-08"
+      },
+      "performance-optimizer": {
+        "description": "Agent optymalizujący wydajność (PATH, registry, startup)",
+        "status": "planned",
+        "lastRun": null
+      }
+    },
+    "reports": {
+      "disk-analysis": {
+        "description": "Raporty analizy dysków",
+        "latestReports": [
+          "disk_d_report_20251108_165916.json"
+        ]
+      },
+      "performance": {
+        "description": "Raporty wydajności systemu",
+        "latestReports": []
+      },
+      "cleanup-logs": {
+        "description": "Logi operacji czyszczenia",
+        "latestReports": []
+      }
+    },
+    "backups": {
+      "path-backups": {
+        "description": "Backupy zmiennej PATH przed modyfikacją",
+        "count": 0
+      },
+      "registry-backups": {
+        "description": "Backupy kluczy rejestru",
+        "count": 0
+      },
+      "config-backups": {
+        "description": "Backupy konfiguracji systemowych",
+        "count": 0
+      }
+    }
+  },
+  "integration": {
+    "myai_ecosystem": "D:\\myai\\",
+    "agent_level": "system-wide",
+    "scope": [
+      "Zarządzanie maszyną",
+      "Monitoring systemu",
+      "Czyszczenie i optymalizacja",
+      "Backupy konfiguracji",
+      "Automatyzacja zadań systemowych"
+    ]
+  },
+  "deployment": {
+    "target": "Windows 11 VM",
+    "replicable": true,
+    "autonomous": true,
+    "remote_servers": true
+  }
+}

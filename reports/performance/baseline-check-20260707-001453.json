@@ -1,0 +1,51 @@
+{
+  "Timestamp": "2026-07-07 00:14:53",
+  "Workspace": "C:\\myAI_System",
+  "IncludeDeepAudit": false,
+  "TotalChecks": 4,
+  "Passed": 4,
+  "Failed": 0,
+  "Missing": 0,
+  "Checks": [
+    {
+      "Name": "Naming Validator",
+      "ScriptPath": "C:\\myAI_System\\scripts\\validation\\validate-naming-rules.ps1",
+      "Args": "",
+      "StartedAt": "2026-07-07 00:14:45",
+      "DurationSec": 1.07,
+      "ExitCode": 0,
+      "Status": "Passed",
+      "OutputPreview": "See terminal output for full details"
+    },
+    {
+      "Name": "Env Sync DryRun",
+      "ScriptPath": "C:\\myAI_System\\scripts\\config\\sync-env-from-gdrive.ps1",
+      "Args": "-DryRun",
+      "StartedAt": "2026-07-07 00:14:47",
+      "DurationSec": 2.02,
+      "ExitCode": 0,
+      "Status": "Passed",
+      "OutputPreview": "See terminal output for full details"
+    },
+    {
+      "Name": "Quick Permissions Check",
+      "ScriptPath": "C:\\myAI_System\\scripts\\diagnostics\\quick-permissions-check.ps1",
+      "Args": "",
+      "StartedAt": "2026-07-07 00:14:49",
+      "DurationSec": 2.02,
+      "ExitCode": 0,
+      "Status": "Passed",
+      "OutputPreview": "See terminal output for full details"
+    },
+    {
+      "Name": "Auto Fix WhatIf",
+      "ScriptPath": "C:\\myAI_System\\scripts\\diagnostics\\auto-fix-issues.ps1",
+      "Args": "-WhatIf",
+      "StartedAt": "2026-07-07 00:14:51",
+      "DurationSec": 2.02,
+      "ExitCode": 0,
+      "Status": "Passed",
+      "OutputPreview": "See terminal output for full details"
+    }
+  ]
+}

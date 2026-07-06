@@ -1,0 +1,548 @@
+ZAINSTALOWANE PROGRAMY (523):
+1527c705-839a-4832-9118-54d4Bd6a0c89
+21st.dev - The first vibe-crafting tool
+5319275A
+5319275A.WhatsAppDesktop
+AD2F1837
+AD2F1837.HPPCHardwareDiagnosticsWindows
+AD2F1837.HPSupportAssistant
+AD2F1837.HPSystemInformation
+Apple Inc.
+Application Verifier x64 External Package
+AppUp
+AppUp.IntelGraphicsExperience
+AppUp.IntelManagementandSecurityStatus
+AppUp.IntelOptaneMemoryandStorageManagement
+Autorzy Comet
+Bang & Olufsen Audio
+Bonjour
+c5e2524a-ea46-4f67-841f-6a9465d9d515
+CCleaner 7
+ClickOnce Bootstrapper Package for Microsoft .NET Framework
+Clipchamp
+Clipchamp.Clipchamp
+Comet
+Conexant
+DiagnosticsHub_CollectionService
+Docker Desktop
+Docker Inc.
+Documentation Manager
+Dropbox
+Dropbox Update Helper
+Dropbox, Inc.
+DropboxInc
+DropboxInc.Dropbox
+dyad
+E2A4F912-2574-4A75-9BB0-0D023378592B
+Entity Framework 6.5.0 Tools  for Visual Studio 2022
+F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE
+Genspark
+Genspark Software Inc
+Git
+GitHub CLI
+GitHub Desktop
+GitHub, Inc.
+Google Chrome
+Google Drive
+Google LLC
+Google LLC
+Google\Chrome
+Grok
+Highlight 1.3.173
+HP Collaboration Keyboard
+HP Collaboration Keyboard Runtime
+HP Inc.
+HP Notifications
+HP System Default Settings
+icecap_collection_neutral
+icecap_collection_x64
+icecap_collectionresources
+icecap_collectionresourcesx64
+IIS 10.0 Express
+IIS Express Application Compatibility Database for x64
+IIS Express Application Compatibility Database for x86
+Intel
+Intel Corporation
+Intel Driver && Support Assistant
+Intel(R) Chipset Device Software
+Intel(R) Computing Improvement Program
+Intel(R) Corporation
+Intel(R) Graphics Driver Software
+Intel(R) Serial IO
+Intel(R) Wireless Bluetooth(R)
+Intel® Driver & Support Assistant
+Intel® Software Installer
+IntelliTraceProfilerProxy
+keep
+keep.google.com-28152D5D
+Kits Configuration Installer
+Medal B.V.
+MediaFinoLabs
+MediaFinoLabs.MailApps
+microsoft
+Microsoft
+Microsoft .NET 10.0 Templates 10.0.100-rc.2.25502.107 x64
+Microsoft .NET 8.0 Templates 8.0.415 (x64)
+Microsoft .NET 9.0 Templates 9.0.306 (x64)
+Microsoft .NET AppHost Pack - 10.0.0 RC 2 (x64_arm64)
+Microsoft .NET AppHost Pack - 10.0.0 RC 2 (x64_x86)
+Microsoft .NET AppHost Pack - 10.0.0 RC 2 (x64)
+Microsoft .NET AppHost Pack - 8.0.21 (x64_arm64)
+Microsoft .NET AppHost Pack - 8.0.21 (x64_x86)
+Microsoft .NET AppHost Pack - 8.0.21 (x64)
+Microsoft .NET AppHost Pack - 9.0.10 (x64_arm64)
+Microsoft .NET AppHost Pack - 9.0.10 (x64_x86)
+Microsoft .NET AppHost Pack - 9.0.10 (x64)
+Microsoft .NET Framework 4.6.2 Targeting Pack
+Microsoft .NET Framework 4.6.2 z dodatkiem Targeting Pack (Polski)
+Microsoft .NET Framework 4.7 Targeting Pack
+Microsoft .NET Framework 4.7 Targeting Pack (Polski)
+Microsoft .NET Framework 4.7.1 Doc Redirected Targeting Pack (Polski)
+Microsoft .NET Framework 4.7.1 Targeting Pack
+Microsoft .NET Framework 4.7.2 Targeting Pack
+Microsoft .NET Framework 4.7.2 Targeting Pack (Polski)
+Microsoft .NET Framework 4.8 SDK
+Microsoft .NET Framework 4.8 SDK (Polski)
+Microsoft .NET Framework 4.8 Targeting Pack
+Microsoft .NET Framework 4.8 Targeting Pack (Polski)
+Microsoft .NET Framework 4.8.1 SDK
+Microsoft .NET Framework 4.8.1 SDK (Polski)
+Microsoft .NET Framework 4.8.1 Targeting Pack
+Microsoft .NET Framework 4.8.1 Targeting Pack (Polski)
+Microsoft .NET Host - 10.0.0 RC 2 (x64)
+Microsoft .NET Host - 10.0.0 RC 2 (x86)
+Microsoft .NET Host - 8.0.21 (x64)
+Microsoft .NET Host - 8.0.21 (x86)
+Microsoft .NET Host - 9.0.10 (x64)
+Microsoft .NET Host - 9.0.10 (x86)
+Microsoft .NET Host FX Resolver - 10.0.0 RC 2 (x64)
+Microsoft .NET Host FX Resolver - 10.0.0 RC 2 (x86)
+Microsoft .NET Host FX Resolver - 8.0.14 (x86)
+Microsoft .NET Host FX Resolver - 8.0.21 (x64)
+Microsoft .NET Host FX Resolver - 8.0.21 (x86)
+Microsoft .NET Host FX Resolver - 9.0.10 (x64)
+Microsoft .NET Host FX Resolver - 9.0.10 (x86)
+Microsoft .NET Runtime - 10.0.0 RC 2 (x64)
+Microsoft .NET Runtime - 10.0.0 RC 2 (x86)
+Microsoft .NET Runtime - 8.0.14 (x86)
+Microsoft .NET Runtime - 8.0.21 (x64)
+Microsoft .NET Runtime - 8.0.21 (x86)
+Microsoft .NET Runtime - 9.0.10 (x64)
+Microsoft .NET Runtime - 9.0.10 (x86)
+Microsoft .NET SDK 10.0.100-rc.2.25502.107 (x64) from Visual Studio
+Microsoft .NET SDK 9.0.306 (x64)
+Microsoft .NET SDK 9.0.306 (x64) from Visual Studio
+Microsoft .NET Standard Targeting Pack - 2.1.0 (x64)
+Microsoft .NET Targeting Pack - 10.0.0 RC 2 (x64)
+Microsoft .NET Targeting Pack - 10.0.0 RC 2 (x86)
+Microsoft .NET Targeting Pack - 8.0.21 (x64)
+Microsoft .NET Targeting Pack - 8.0.21 (x86)
+Microsoft .NET Targeting Pack - 9.0.10 (x64)
+Microsoft .NET Targeting Pack - 9.0.10 (x86)
+Microsoft .NET Toolset 10.0.100-rc.2.25502.107 (x64)
+Microsoft .NET Toolset 9.0.306 (x64)
+Microsoft ASP.NET Core 8.0.21 - Shared Framework (x86)
+Microsoft ASP.NET Core 8.0.21 Shared Framework (x64)
+Microsoft ASP.NET Core 8.0.21 Shared Framework (x86)
+Microsoft ASP.NET Core 8.0.21 Targeting Pack (x64)
+Microsoft ASP.NET Core 8.0.21 Targeting Pack (x86)
+Microsoft ASP.NET Core 9.0.10 Shared Framework (x64)
+Microsoft ASP.NET Core 9.0.10 Shared Framework (x86)
+Microsoft ASP.NET Core 9.0.10 Targeting Pack (x64)
+Microsoft ASP.NET Core 9.0.10 Targeting Pack (x86)
+Microsoft ASP.NET Core Module for IIS Express
+Microsoft ASP.NET Core Module V2 for IIS Express
+Microsoft ASP.NET Core Runtime - 10.0.0 RC 2 (x64)
+Microsoft ASP.NET Core Runtime - 10.0.0 RC 2 (x86)
+Microsoft ASP.NET Core Targeting Pack - 10.0.0 RC 2 (x64)
+Microsoft ASP.NET Core Targeting Pack - 10.0.0 RC 2 (x86)
+Microsoft ASP.NET Diagnostic Pack for Visual Studio
+Microsoft ASP.NET Web Tools Packages 17.0 - ENU
+Microsoft ASP.NET Web Tools Packages 17.0 - PLK
+Microsoft ASP.NET Web Tools Packages 18.0 - ENU
+Microsoft ASP.NET Web Tools Packages 18.0 - PLK
+Microsoft Command Line Utilities 15 for SQL Server
+Microsoft Corporation
+Microsoft Corporations
+Microsoft Edge
+Microsoft Exchange Web Services Managed API 2.1
+Microsoft NetStandard SDK
+Microsoft ODBC Driver 17 for SQL Server
+Microsoft OneDrive
+Microsoft SQL Server 2019 LocalDB
+Microsoft SQL Server 2025 LocalDB RC1
+Microsoft System CLR Types for SQL Server 2019
+Microsoft TestPlatform SDK Local Feed
+Microsoft Visual C++ 2005 Redistributable
+Microsoft Visual C++ 2005 Redistributable (x64)
+Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161
+Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161
+Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219
+Microsoft Visual C++ 2010  x86 Redistributable - 10.0.30319
+Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.61030
+Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.61030
+Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030
+Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030
+Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030
+Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030
+Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.30501
+Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.40664
+Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.30501
+Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.40664
+Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40664
+Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40664
+Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40664
+Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.40664
+Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.44.35211
+Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.44.35211
+Microsoft Visual C++ 2022 X64 Additional Runtime - 14.44.35211
+Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.44.35211
+Microsoft Visual C++ 2022 X86 Additional Runtime - 14.44.35211
+Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.44.35211
+Microsoft Visual Studio Code (User)
+Microsoft Visual Studio Installer
+Microsoft Visual Studio Setup Configuration
+Microsoft Visual Studio Setup WMI Provider
+Microsoft Web Deploy 4.0
+Microsoft Windows Communication Foundation Diagnostic Pack for x86
+Microsoft Windows Desktop Runtime - 10.0.0 RC 2 (x64)
+Microsoft Windows Desktop Runtime - 10.0.0 RC 2 (x86)
+Microsoft Windows Desktop Runtime - 8.0.14 (x86)
+Microsoft Windows Desktop Runtime - 8.0.21 (x64)
+Microsoft Windows Desktop Runtime - 8.0.21 (x86)
+Microsoft Windows Desktop Runtime - 9.0.10 (x64)
+Microsoft Windows Desktop Runtime - 9.0.10 (x86)
+Microsoft Windows Desktop Targeting Pack - 10.0.0 RC 2 (x64)
+Microsoft Windows Desktop Targeting Pack - 10.0.0 RC 2 (x86)
+Microsoft Windows Desktop Targeting Pack - 8.0.21 (x64)
+Microsoft Windows Desktop Targeting Pack - 8.0.21 (x86)
+Microsoft Windows Desktop Targeting Pack - 9.0.10 (x64)
+Microsoft Windows Desktop Targeting Pack - 9.0.10 (x86)
+Microsoft Workflow Debugger v1.0 for amd64
+Microsoft Workflow Debugger v1.0 for x86
+Microsoft Workflow Diagnostic Pack for x64
+Microsoft.6365217CE6EB4
+Microsoft.AAD.BrokerPlugin
+Microsoft.AccountsControl
+Microsoft.ApplicationCompatibilityEnhancements
+Microsoft.AsyncTextService
+Microsoft.AV1VideoExtension
+Microsoft.AVCEncoderVideoExtension
+Microsoft.BingNews
+Microsoft.BingSearch
+Microsoft.BingWeather
+Microsoft.BioEnrollment
+Microsoft.CredDialogHost
+Microsoft.DesktopAppInstaller
+Microsoft.ECApp
+Microsoft.Edge.GameAssist
+Microsoft.GamingApp
+Microsoft.GetHelp
+Microsoft.HEIFImageExtension
+Microsoft.HEVCVideoExtension
+Microsoft.LanguageExperiencePacken-US
+Microsoft.LanguageExperiencePackpl-PL
+Microsoft.LockApp
+Microsoft.MicrosoftEdge.Stable
+Microsoft.MicrosoftEdgeDevToolsClient
+Microsoft.MicrosoftOfficeHub
+Microsoft.MicrosoftSolitaireCollection
+Microsoft.MicrosoftStickyNotes
+Microsoft.MPEG2VideoExtension
+Microsoft.NET.Native.Framework.1.3
+Microsoft.NET.Native.Framework.2.2
+Microsoft.NET.Native.Runtime.1.4
+Microsoft.NET.Native.Runtime.2.2
+Microsoft.NET.Sdk.Android.Manifest-10.0.100-rc.2 (x64)
+Microsoft.NET.Sdk.Android.Manifest-9.0.100 (x64)
+Microsoft.NET.Sdk.Aspire.Manifest-8.0.100 (x64)
+Microsoft.NET.Sdk.iOS.Manifest-10.0.100-rc.2 (x64)
+Microsoft.NET.Sdk.iOS.Manifest-9.0.100 (x64)
+Microsoft.NET.Sdk.MacCatalyst.Manifest-10.0.100-rc.2 (x64)
+Microsoft.NET.Sdk.MacCatalyst.Manifest-9.0.100 (x64)
+Microsoft.NET.Sdk.macOS.Manifest-10.0.100-rc.2 (x64)
+Microsoft.NET.Sdk.macOS.Manifest-9.0.100 (x64)
+Microsoft.NET.Sdk.Maui.Manifest-10.0.100-rc.2 (x64)
+Microsoft.NET.Sdk.Maui.Manifest-9.0.100 (x64)
+Microsoft.NET.Sdk.tvOS.Manifest-10.0.100-rc.2 (x64)
+Microsoft.NET.Sdk.tvOS.Manifest-9.0.100 (x64)
+Microsoft.NET.Workload.Emscripten.Current.Manifest (x64)
+Microsoft.NET.Workload.Emscripten.Current.Manifest-10.0.100-rc.2 (x64)
+Microsoft.NET.Workload.Emscripten.net6.Manifest (x64)
+Microsoft.NET.Workload.Emscripten.net6.Manifest-10.0.100-rc.2 (x64)
+Microsoft.NET.Workload.Emscripten.net7.Manifest (x64)
+Microsoft.NET.Workload.Emscripten.net7.Manifest-10.0.100-rc.2 (x64)
+Microsoft.NET.Workload.Emscripten.net8.Manifest (x64)
+Microsoft.NET.Workload.Emscripten.net8.Manifest-10.0.100-rc.2 (x64)
+Microsoft.NET.Workload.Emscripten.net9.Manifest-10.0.100-rc.2 (x64)
+Microsoft.NET.Workload.Mono.Toolchain.Current.Manifest (x64)
+Microsoft.NET.Workload.Mono.Toolchain.Current.Manifest-10.0.100-rc.2 (x64)
+Microsoft.NET.Workload.Mono.Toolchain.net6.Manifest (x64)
+Microsoft.NET.Workload.Mono.Toolchain.net6.Manifest-10.0.100-rc.2 (x64)
+Microsoft.NET.Workload.Mono.Toolchain.net7.Manifest (x64)
+Microsoft.NET.Workload.Mono.Toolchain.net7.Manifest-10.0.100-rc.2 (x64)
+Microsoft.NET.Workload.Mono.Toolchain.net8.Manifest (x64)
+Microsoft.NET.Workload.Mono.Toolchain.net8.Manifest-10.0.100-rc.2 (x64)
+Microsoft.NET.Workload.Mono.Toolchain.net9.Manifest-10.0.100-rc.2 (x64)
+Microsoft.Office.OneNoteVirtualPrinter
+Microsoft.OneDriveSync
+Microsoft.OutlookForWindows
+Microsoft.Paint
+Microsoft.People
+Microsoft.PowerAutomateDesktop
+Microsoft.RawImageExtension
+Microsoft.ScreenSketch
+Microsoft.SecHealthUI
+Microsoft.StartExperiencesApp
+Microsoft.StorePurchaseApp
+Microsoft.Todos
+Microsoft.UI.Xaml.2.6
+Microsoft.UI.Xaml.2.7
+Microsoft.UI.Xaml.2.8
+Microsoft.UI.Xaml.CBS
+Microsoft.VCLibs.140.00
+Microsoft.VCLibs.140.00.UWPDesktop
+Microsoft.VP9VideoExtensions
+Microsoft.WebMediaExtensions
+Microsoft.WebpImageExtension
+Microsoft.WidgetsPlatformRuntime
+Microsoft.Win32WebViewHost
+Microsoft.Windows.Apprep.ChxApp
+Microsoft.Windows.AssignedAccessLockApp
+Microsoft.Windows.AugLoop.CBS
+Microsoft.Windows.CapturePicker
+Microsoft.Windows.CloudExperienceHost
+Microsoft.Windows.ContentDeliveryManager
+Microsoft.Windows.DevHome
+Microsoft.Windows.NarratorQuickStart
+Microsoft.Windows.OOBENetworkCaptivePortal
+Microsoft.Windows.OOBENetworkConnectionFlow
+Microsoft.Windows.ParentalControls
+Microsoft.Windows.PeopleExperienceHost
+Microsoft.Windows.Photos
+Microsoft.Windows.PinningConfirmationDialog
+Microsoft.Windows.PrintQueueActionCenter
+Microsoft.Windows.SecureAssessmentBrowser
+Microsoft.Windows.ShellExperienceHost
+Microsoft.Windows.StartMenuExperienceHost
+Microsoft.Windows.XGpuEjectDialog
+Microsoft.WindowsAlarms
+Microsoft.WindowsAppRuntime.1.2
+Microsoft.WindowsAppRuntime.1.3
+Microsoft.WindowsAppRuntime.1.4
+Microsoft.WindowsAppRuntime.1.5
+Microsoft.WindowsAppRuntime.1.6
+Microsoft.WindowsAppRuntime.1.7
+Microsoft.WindowsAppRuntime.1.8
+Microsoft.WindowsAppRuntime.CBS.1.6
+Microsoft.WindowsAppRuntime.CBS.1.8
+Microsoft.WindowsCalculator
+Microsoft.WindowsCamera
+microsoft.windowscommunicationsapps
+Microsoft.WindowsFeedbackHub
+Microsoft.WindowsNotepad
+Microsoft.WindowsSoundRecorder
+Microsoft.WindowsStore
+Microsoft.WindowsTerminal
+Microsoft.Winget.Source
+Microsoft.Xbox.TCUI
+Microsoft.XboxGameCallableUI
+Microsoft.XboxGameOverlay
+Microsoft.XboxGamingOverlay
+Microsoft.XboxIdentityProvider
+Microsoft.XboxSpeechToTextOverlay
+Microsoft.YourPhone
+Microsoft.ZuneMusic
+Microsoft.ZuneVideo
+MicrosoftCorporationII
+MicrosoftCorporationII.QuickAssist
+MicrosoftCorporationII.WinAppRuntime.Main.1.8
+MicrosoftCorporationII.WinAppRuntime.Singleton
+MicrosoftCorporationII.WindowsSubsystemForLinux
+MicrosoftCorporationII.WinML.Intel.OpenVINO.EP.1.8
+MicrosoftCorporationII.WinML.NVIDIA.TRT-RTX.EP.1.8
+MicrosoftWindows
+MicrosoftWindows.54792954.Filons
+MicrosoftWindows.58680125.Speion
+MicrosoftWindows.58681517.Voiess
+MicrosoftWindows.58681560.Livtop
+MicrosoftWindows.58683691.InpApp
+MicrosoftWindows.59336768.Speion
+MicrosoftWindows.59337133.Voiess
+MicrosoftWindows.59379618.InpApp
+MicrosoftWindows.Client.CBS
+MicrosoftWindows.Client.Core
+MicrosoftWindows.Client.CoreAI
+MicrosoftWindows.Client.FileExp
+MicrosoftWindows.Client.OOBE
+MicrosoftWindows.Client.Photon
+MicrosoftWindows.Client.WebExperience
+MicrosoftWindows.CrossDevice
+MicrosoftWindows.Speech.en-US.1
+MicrosoftWindows.UndockedDevKit
+MSI Development Tools
+MSTeams
+new.express.adobe.com-E403B1D1
+Node.js
+Node.js Foundation
+Notion 4.23.0
+Notion Labs, Inc
+NVIDIA Corporation
+NVIDIA Install Application
+NVIDIA RTX Desktop Manager 204.61
+NVIDIA Sterownik dźwięku HD 1.3.40.14
+NVIDIA Sterownik graficzny 538.18
+NVIDIACorp
+NVIDIACorp.NVIDIAControlPanel
+OpenAI
+OpenAI.ChatGPT-Desktop
+OptaneDowngradeGuard
+Pakiet zbiorczy funkcji IntelliSense platformy Microsoft .NET Framework Cumulative Intellisense Pack dla programu Visual Studio (Polski)
+Perplexity
+Perplexity 1.3.0
+Piriform
+PowerShell 7-x64
+Python 3.13.9 (64-bit)
+Python 3.13.9 Add to Path (64-bit)
+Python 3.13.9 Core Interpreter (64-bit)
+Python 3.13.9 Development Libraries (64-bit)
+Python 3.13.9 Documentation (64-bit)
+Python 3.13.9 Executables (64-bit)
+Python 3.13.9 pip Bootstrap (64-bit)
+Python 3.13.9 Standard Library (64-bit)
+Python 3.13.9 Tcl/Tk Support (64-bit)
+Python 3.13.9 Test Suite (64-bit)
+Python Launcher
+Python Software Foundation
+PythonSoftwareFoundation
+PythonSoftwareFoundation.PythonManager
+RoboForm 9-5-7-7 (All Users)
+RstDowngradeGuard
+SDK ARM Additions
+SDK ARM Redistributables
+Siber Systems
+sptools_Microsoft.VisualStudio.OfficeDeveloperTools.Msi
+sptools_Microsoft.VisualStudio.Vsto.Msi
+sptools_Microsoft.VisualStudio.Vsto.Msi.Resources
+sptools_Microsoft.VisualStudio.Vsto.Msi.x64
+Środowisko uruchomieniowe Microsoft Edge WebView2
+The Git Development Community
+Universal CRT Extension SDK
+Universal CRT Headers Libraries and Sources
+Universal CRT Redistributable
+Universal CRT Tools x64
+Universal CRT Tools x86
+Universal General MIDI DLS Extension SDK
+vcpp_crt.redist.clickonce
+Visual Studio Professional 2022
+Visual Studio Professional 2026 Insiders
+VS Script Debugging Common
+VS WCF Debugging
+vs_clickoncebootstrappermsi
+vs_clickoncebootstrappermsires
+vs_clickoncesigntoolmsi
+vs_codecoveragemsi
+vs_communitymsires
+vs_communitysharedmsi
+vs_communityx64msi
+vs_CoreEditorFonts
+vs_devenvsharedmsi
+vs_devenx64vmsi
+vs_filehandler_amd64
+vs_filehandler_x86
+vs_FileTracker_Singleton
+vs_githubprotocolhandlermsi
+vs_minshellinteropsharedmsi
+vs_minshellinteropx64msi
+vs_minshellmsires
+vs_minshellsharedmsi
+vs_minshellx64msi
+vs_SQLClickOnceBootstrappermsi
+vs_tipsmsi
+vs_vswebprotocolselectormsi
+vs_vswebprotocolselectormsires
+Will Chen
+WinAppDeploy
+Windows
+windows
+Windows App Certification Kit Native Components
+Windows App Certification Kit SupportedApiList x86
+Windows App Certification Kit x64
+Windows Desktop Extension SDK
+Windows Desktop Extension SDK Contracts
+Windows IoT Extension SDK
+Windows IoT Extension SDK Contracts
+Windows Mobile Extension SDK
+Windows Mobile Extension SDK Contracts
+Windows SDK
+Windows SDK AddOn
+Windows SDK ARM Desktop Tools
+Windows SDK Desktop Headers arm
+Windows SDK Desktop Headers arm64
+Windows SDK Desktop Headers x64
+Windows SDK Desktop Headers x86
+Windows SDK Desktop Libs arm
+Windows SDK Desktop Libs arm64
+Windows SDK Desktop Libs x64
+Windows SDK Desktop Libs x86
+Windows SDK Desktop Tools arm64
+Windows SDK Desktop Tools x64
+Windows SDK Desktop Tools x86
+Windows SDK DirectX x64 Remote
+Windows SDK DirectX x86 Remote
+Windows SDK EULA
+Windows SDK Facade Windows WinMD Versioned
+Windows SDK for Windows Store Apps
+Windows SDK for Windows Store Apps Contracts
+Windows SDK for Windows Store Apps DirectX x86 Remote
+Windows SDK for Windows Store Apps Headers
+Windows SDK for Windows Store Apps Libs
+Windows SDK for Windows Store Apps Metadata
+Windows SDK for Windows Store Apps Tools
+Windows SDK for Windows Store Managed Apps Libs
+Windows SDK Modern Non-Versioned Developer Tools
+Windows SDK Modern Versioned Developer Tools
+Windows SDK Redistributables
+Windows SDK Signing Tools
+Windows Software Development Kit - Windows 10.0.19041.5609
+Windows Subsystem for Linux
+Windows Team Extension SDK
+Windows Team Extension SDK Contracts
+Windows.CBSPreview
+windows.immersivecontrolpanel
+Windows.PrintDialog
+WinRT Intellisense Desktop - en-us
+WinRT Intellisense Desktop - Other Languages
+WinRT Intellisense IoT - en-us
+WinRT Intellisense IoT - Other Languages
+WinRT Intellisense Mobile - en-us
+WinRT Intellisense PPI - en-us
+WinRT Intellisense PPI - Other Languages
+WinRT Intellisense UAP - en-us
+WinRT Intellisense UAP - Other Languages
+Workflow Manager Client 1.0
+Workflow Manager Tools 1.0 for Visual Studio
+
+FOLDERY INSTALACJI (22):
+1.0
+Application
+CCleaner 7
+Client
+Display.Driver.{F1C6D727-42F0-4F8A-BDB8-A486FC78089D}
+Docker
+Driver and Support Assistant
+dyad
+Git
+GitHubDesktop
+GoogleDriveFS.exe
+HDAudio.Driver.{D1C0CDEE-7947-4738-84E5-239A01D68FB7}
+HP Collaboration Keyboard
+HP Notifications
+HP System Default Settings
+Insiders
+Installer"
+InstallerCore
+Intel(R) Serial IO
+Microsoft VS Code
+nview
+Professional

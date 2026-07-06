@@ -1,0 +1,15 @@
+{
+  "settings": {
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "files.exclude": {
+      "**/.pytest_cache": true,
+      "**/__pycache__": true
+    }
+  },
+  "folders": [
+    {
+      "path": "C:\\myAI_System",
+      "name": "🖥️ myAI System (C:)"
+    }
+  ]
+}

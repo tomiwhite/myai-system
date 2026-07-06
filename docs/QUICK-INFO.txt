@@ -1,0 +1,151 @@
+╔══════════════════════════════════════════════════════════════════════════╗
+║                                                                          ║
+║                  🚀 myAI ONE-CLICK STARTER                              ║
+║                  Szybki Start - Użytkownik Nietechniczny                ║
+║                                                                          ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ 1️⃣  PIERWSZA KONFIGURACJA (RAZ NA ZAWSZE)                              │
+└──────────────────────────────────────────────────────────────────────────┘
+
+1. Otwórz Eksplorator Windows
+2. Przejdź do: C:\myAI_System\scripts\startup\
+3. Kliknij dwukrotnie: create-desktop-shortcuts.vbs
+4. ✅ Gotowe! Ikony na pulpicie utworzone
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ 2️⃣  CODZIENNE UŻYWANIE (SUPER PROSTE!)                                 │
+└──────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────┐  ┌──────────────────────────────────┐
+│ 🖥️ myAI System (C)                 │  │ 🤖 myAI Application (D)         │
+│                                     │  │                                  │
+│ KIEDY KLIKNĄĆ:                      │  │ KIEDY KLIKNĄĆ:                   │
+│ - Zarządzanie systemem Windows      │  │ - Praca z agentami AI            │
+│ - Monitoring dysków                 │  │ - Uruchamianie kodu Python       │
+│ - Czyszczenie i diagnostyka         │  │ - Rozwój aplikacji               │
+│ - Konfiguracja .env                 │  │                                  │
+│                                     │  │                                  │
+│ OTWIERA:                            │  │ OTWIERA:                         │
+│ C:\myAI_System w VS Code            │  │ D:\myai w VS Code                │
+│                                     │  │ + Python venv automatycznie!     │
+└─────────────────────────────────────┘  └──────────────────────────────────┘
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ 3️⃣  CO SIĘ DZIEJE PO KLIKNIĘCIU?                                       │
+└──────────────────────────────────────────────────────────────────────────┘
+
+✅ Sprawdzanie katalogów
+✅ Synchronizacja .env (jeśli potrzeba)
+✅ Sprawdzanie Python i VS Code
+✅ Instalacja brakujących rozszerzeń
+✅ Tworzenie venv (jeśli brakuje)
+✅ Instalacja pakietów z requirements.txt
+✅ Otwarcie VS Code w odpowiednim workspace
+✅ Wyświetlenie powitania i statusu
+
+⏱️ Czas: ~10 sekund
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ 4️⃣  KOLORY W OKNIE POWERSHELL                                          │
+└──────────────────────────────────────────────────────────────────────────┘
+
+🟢 ✅ Zielony  - Wszystko OK
+🔵 ℹ️  Niebieski - Informacja
+🟡 ⚠️  Żółty    - Ostrzeżenie (działa, ale można poprawić)
+🔴 ❌ Czerwony  - Błąd (wymaga działania)
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ 5️⃣  TYPOWY DZIEŃ PRACY                                                 │
+└──────────────────────────────────────────────────────────────────────────┘
+
+RANO:
+1. Kliknij ikonę na pulpicie (C lub D)
+2. Poczekaj 10 sekund
+3. VS Code się otworzy
+4. Zapytaj AI: "Gdzie skończyliśmy?"
+5. Kontynuuj pracę
+
+WIECZOREM:
+- Zamknij VS Code
+- Wszystko zapisane automatycznie
+- Jutro kontynuuj od tego miejsca
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ 6️⃣  CO JEŚLI COŚ NIE DZIAŁA?                                           │
+└──────────────────────────────────────────────────────────────────────────┘
+
+❌ "VS Code nie znaleziony"
+   → Zainstaluj: https://code.visualstudio.com/
+   → Uruchom ponownie ikonę
+
+❌ "Python nie znaleziony"
+   → Zainstaluj Python 3.13+: https://www.python.org/downloads/
+   → WAŻNE: Zaznacz "Add Python to PATH"
+   → Uruchom ponownie ikonę
+
+❌ "Google Drive .env not found"
+   → Włącz Google Drive
+   → Sprawdź: G:\Mój dysk\podreczne - mysite\myoffice 4-0 dokumentation\.env
+
+⚠️ Inne problemy?
+   → Przeczytaj komunikaty w oknie PowerShell (często podają rozwiązanie)
+   → Zapytaj AI Asystenta w VS Code: "System nie działa, co robić?"
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ 7️⃣  GDZIE ZNALEŹĆ POMOC?                                               │
+└──────────────────────────────────────────────────────────────────────────┘
+
+📖 Pełna instrukcja:
+   C:\myAI_System\docs\user-guide\ONE-CLICK-STARTER.md
+
+📊 Schemat .env:
+   C:\myAI_System\docs\diagrams\ENV-SCHEMA.txt
+
+🚀 Quick Start:
+   C:\myAI_System\QUICKSTART.md
+
+🤖 AI Asystent w VS Code:
+   Po uruchomieniu możesz pytać AI o wszystko!
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ 8️⃣  AUTOMATYKA (CO DZIEJE SIĘ SAMO)                                    │
+└──────────────────────────────────────────────────────────────────────────┘
+
+✅ Synchronizacja .env z Google Drive
+✅ Tworzenie Python venv
+✅ Instalacja pakietów z requirements.txt
+✅ Instalacja rozszerzeń VS Code
+✅ Aktywacja venv w terminalu
+✅ Backupy .env (codziennie)
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ 9️⃣  CHECKLIST PRZED PIERWSZYM UŻYCIEM                                  │
+└──────────────────────────────────────────────────────────────────────────┘
+
+□ VS Code zainstalowany
+□ Python 3.13+ zainstalowany (z "Add to PATH")
+□ Google Drive włączony i zsynchronizowany
+□ Plik .env istnieje w Google Drive
+□ Ikony utworzone na pulpicie
+
+Wszystko ✅? GOTOWE! 🚀
+
+
+╔══════════════════════════════════════════════════════════════════════════╗
+║                                                                          ║
+║  💡 PRO TIP: Nie zamykaj okna PowerShell podczas sprawdzania!          ║
+║              Zamknie się samo po 5 sekundach.                           ║
+║                                                                          ║
+║  🤖 Zapytaj AI w VS Code o wszystko - on wie co robić!                 ║
+║                                                                          ║
+╚══════════════════════════════════════════════════════════════════════════╝

@@ -1,0 +1,258 @@
+{
+  "LargeFiles": [
+    {
+      "Name": "Przesłane ze sklepu.zip",
+      "Path": "D:\\Dropbox (Stary)\\Dropbox - backup myzabkapl",
+      "SizeGB": 2.03,
+      "Type": ".zip"
+    },
+    {
+      "Name": "Udostępnione dla sklepu.zip",
+      "Path": "D:\\Dropbox (Stary)\\Dropbox - backup myzabkapl",
+      "SizeGB": 1.61,
+      "Type": ".zip"
+    },
+    {
+      "Name": "wfirma.pl.zip",
+      "Path": "D:\\Dropbox (Stary)\\Dropbox - backup z5773",
+      "SizeGB": 1.03,
+      "Type": ".zip"
+    },
+    {
+      "Name": "dok_inne.zip",
+      "Path": "D:\\Dropbox (Stary)\\Dropbox - backup z5773\\myZabka_DOKUMENTY_Z5773",
+      "SizeGB": 0.75,
+      "Type": ".zip"
+    },
+    {
+      "Name": "dok_portal.zip",
+      "Path": "D:\\Dropbox (Stary)\\Dropbox - backup z5773\\myZabka_DOKUMENTY_Z5773",
+      "SizeGB": 0.91,
+      "Type": ".zip"
+    },
+    {
+      "Name": "myZabka_DOKUMENTY_Z5773 15-06-2023.7z",
+      "Path": "D:\\Dropbox (Stary)\\Dropbox - backup z5773\\myZabka_DOKUMENTY_Z5773",
+      "SizeGB": 0.89,
+      "Type": ".7z"
+    },
+    {
+      "Name": "myzabkaz5773 aktualizacja 12-08-2023.zip",
+      "Path": "D:\\Dropbox (Stary)\\Dropbox - backup z5773\\myZabka_DOKUMENTY_Z5773",
+      "SizeGB": 0.49,
+      "Type": ".zip"
+    },
+    {
+      "Name": "dok_zmarket (1).zip",
+      "Path": "D:\\Dropbox (Stary)\\Dropbox - backup z5773\\myZabka_DOKUMENTY_Z5773\\dok_zmarket",
+      "SizeGB": 0.53,
+      "Type": ".zip"
+    },
+    {
+      "Name": "1.zip",
+      "Path": "D:\\Dropbox (Stary)\\Dropbox - backup_z8234",
+      "SizeGB": 5.94,
+      "Type": ".zip"
+    },
+    {
+      "Name": "3.zip",
+      "Path": "D:\\Dropbox (Stary)\\Dropbox - backup_z8234",
+      "SizeGB": 4.59,
+      "Type": ".zip"
+    },
+    {
+      "Name": "myZabka_DOKUMENTY_Z8234_20250214.zip",
+      "Path": "D:\\Dropbox (Stary)\\Dropbox - backup_z8234",
+      "SizeGB": 0.61,
+      "Type": ".zip"
+    },
+    {
+      "Name": "server.3525.win_cuda.zip",
+      "Path": "D:\\GitHub\\Repozytoria\\mySmartlightApp\\mySmartlightApp\\Dependencies\\Cache",
+      "SizeGB": 0.53,
+      "Type": ".zip"
+    },
+    {
+      "Name": "cublasLt64_12.dll",
+      "Path": "D:\\GitHub\\Repozytoria\\mySmartlightApp\\mySmartlightApp\\Dependencies\\LocalLLM",
+      "SizeGB": 0.5,
+      "Type": ".dll"
+    },
+    {
+      "Name": "1563857",
+      "Path": "D:\\GoogleDriveCache\\100206107893615089562\\content_cache\\d10\\d101",
+      "SizeGB": 0.82,
+      "Type": ""
+    },
+    {
+      "Name": "982050",
+      "Path": "D:\\GoogleDriveCache\\100206107893615089562\\content_cache\\d31\\d97",
+      "SizeGB": 0.82,
+      "Type": ""
+    }
+  ],
+  "Timestamp": "2025-11-08T16:59:16.4584593+01:00",
+  "TopFolders": [
+    {
+      "Name": "^BAZA DANYCH - lokalnie",
+      "SizeGB": 5.41,
+      "Files": 15497
+    },
+    {
+      "Name": "^dok_przetwarzanie - OFFLINE",
+      "SizeGB": 0.57,
+      "Files": 506
+    },
+    {
+      "Name": "Autoodzyskiwanie Office",
+      "SizeGB": 0.0,
+      "Files": 23
+    },
+    {
+      "Name": "backup",
+      "SizeGB": 0.0,
+      "Files": 5
+    },
+    {
+      "Name": "Documents",
+      "SizeGB": 0.0,
+      "Files": 0
+    },
+    {
+      "Name": "Dropbox",
+      "SizeGB": 0.0,
+      "Files": 13
+    },
+    {
+      "Name": "Dropbox (Pam)",
+      "SizeGB": 2.11,
+      "Files": 2402
+    },
+    {
+      "Name": "Dropbox (Stary)",
+      "SizeGB": 23.3,
+      "Files": 5439
+    },
+    {
+      "Name": "Dyad",
+      "SizeGB": 0.77,
+      "Files": 53508
+    },
+    {
+      "Name": "Firebase",
+      "SizeGB": 0.0,
+      "Files": 2
+    },
+    {
+      "Name": "GitHub",
+      "SizeGB": 5.05,
+      "Files": 3559
+    },
+    {
+      "Name": "Google AI Studio",
+      "SizeGB": 0.13,
+      "Files": 114
+    },
+    {
+      "Name": "GoogleDrive-MyZabka",
+      "SizeGB": 0.0,
+      "Files": 0
+    },
+    {
+      "Name": "GoogleDriveCache",
+      "SizeGB": 87.26,
+      "Files": 82637
+    },
+    {
+      "Name": "MEGA - konta",
+      "SizeGB": 0.08,
+      "Files": 198
+    },
+    {
+      "Name": "myai",
+      "SizeGB": 0.0,
+      "Files": 17
+    },
+    {
+      "Name": "myAI_Perplexity_Labs",
+      "SizeGB": 0.0,
+      "Files": 40
+    },
+    {
+      "Name": "myOffice",
+      "SizeGB": 14.11,
+      "Files": 61839
+    },
+    {
+      "Name": "myProjekty",
+      "SizeGB": 6.78,
+      "Files": 135078
+    },
+    {
+      "Name": "OneDrive",
+      "SizeGB": 809.37,
+      "Files": 225511
+    },
+    {
+      "Name": "OneDrive - myzabka",
+      "SizeGB": 26.58,
+      "Files": 38888
+    },
+    {
+      "Name": "OneDrive - oxygen",
+      "SizeGB": 0.0,
+      "Files": 6
+    },
+    {
+      "Name": "OneDrive - z5773",
+      "SizeGB": 33.7,
+      "Files": 18053
+    },
+    {
+      "Name": "OneDrive - zabkapl",
+      "SizeGB": 14.99,
+      "Files": 4364
+    },
+    {
+      "Name": "Pobrane (D)",
+      "SizeGB": 0.0,
+      "Files": 0
+    },
+    {
+      "Name": "Studio_Muzyka",
+      "SizeGB": 39.84,
+      "Files": 2328
+    },
+    {
+      "Name": "Studio_Pobrane",
+      "SizeGB": 131.51,
+      "Files": 1788
+    },
+    {
+      "Name": "Studio_SOUND LIBRARY (baza i instalki)",
+      "SizeGB": 21.1,
+      "Files": 4131
+    },
+    {
+      "Name": "VS Code",
+      "SizeGB": 0.0,
+      "Files": 148
+    },
+    {
+      "Name": "Z5773",
+      "SizeGB": 0.02,
+      "Files": 1
+    },
+    {
+      "Name": "Z8234",
+      "SizeGB": 4.27,
+      "Files": 2560
+    }
+  ],
+  "DiskInfo": {
+    "TotalGB": 953.87,
+    "UsedGB": 609.21,
+    "PercentFree": 36.13,
+    "FreeGB": 344.66
+  }
+}

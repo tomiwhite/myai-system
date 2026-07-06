@@ -1,0 +1,12 @@
+{
+  "Date": "2025-11-09 04:21:03",
+  "Deleted": 0,
+  "FreedGB": 0.13,
+  "Errors": [
+    "Windows Update cache: Access to the path 'C:\\ProgramData\\USOShared\\Logs\\System\\MoUxCoreWorker.06af775c-7c98-490a-9456-7703dcf77189.1.etl' is denied.",
+    "Windows Update cache: Access to the path 'C:\\ProgramData\\USOPrivate\\ExpeditedAppRegistrations\\MS_AutoSuperRes\\updater_AutoSuperRes.json' is denied.",
+    "Comms: The process cannot access the file 'C:\\Users\\tomiw\\AppData\\Local\\Comms\\UnistoreDB\\store.jfm' because it is being used by another process.",
+    "Connected Devices: The process cannot access the file 'C:\\Users\\tomiw\\AppData\\Local\\ConnectedDevicesPlatform\\e8fba20b339eff48\\ActivitiesCache.db' because it is being used by another process."
+  ],
+  "FreedMB": 132.91
+}

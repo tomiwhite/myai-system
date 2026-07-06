@@ -1,0 +1,16 @@
+[
+  {
+    "Timestamp": "2026-07-06 23:38:39",
+    "Action": "RemoveDeadLink",
+    "Target": "C:\\Users\\tomiw\\Desktop\\myLM_Studio — skrót .lnk",
+    "Status": "Skipped",
+    "Details": "Not found"
+  },
+  {
+    "Timestamp": "2026-07-06 23:38:39",
+    "Action": "SetExecutionPolicy",
+    "Target": "CurrentUser",
+    "Status": "WhatIf",
+    "Details": "RemoteSigned"
+  }
+]

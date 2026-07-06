@@ -1,0 +1,20 @@
+{
+  "Warnings": [
+    "Ograniczone uprawnienia: C:\\myAI_System",
+    "Ograniczone uprawnienia: D:\\myai",
+    "Pliki z obcymi właścicielami: 1",
+    "Puste foldery w Program Files: 10",
+    "Podejrzane foldery AppData: 75",
+    "Osierocone wpisy rejestru: 1",
+    "Usługi z nieistniejącymi plikami: 6"
+  ],
+  "Details": {
+    "SuspiciousDirs": 75,
+    "OrphanedKeys": 1,
+    "ForeignFiles": 1,
+    "BrokenServices": 6,
+    "EmptyDirs": 10
+  },
+  "Issues": [],
+  "Timestamp": "2025-11-09 03:14:12"
+}

@@ -1,0 +1,125 @@
+{
+  "Statistics": {},
+  "Timestamp": "2025-11-08T18:06:13.8921655+01:00",
+  "RootPath": "D:\\myai",
+  "Directories": {
+    "ai-agent-project": {
+      "HasRequirements": true,
+      "Path": "D:\\myai\\ai-agent-project",
+      "HasReadme": true,
+      "HasPackageJson": false,
+      "FileCount": 15,
+      "LastModified": "2025-11-08T16:45:22.2966887+01:00",
+      "SizeGB": 0.0
+    },
+    "tests": {
+      "HasRequirements": false,
+      "Path": "D:\\myai\\tests",
+      "HasReadme": false,
+      "HasPackageJson": false,
+      "FileCount": 0,
+      "LastModified": "2025-11-08T16:52:11.4159405+01:00",
+      "SizeGB": 0.0
+    },
+    "requirements": {
+      "HasRequirements": false,
+      "Path": "D:\\myai\\requirements",
+      "HasReadme": false,
+      "HasPackageJson": false,
+      "FileCount": 5,
+      "LastModified": "2025-11-08T16:55:50.1637763+01:00",
+      "SizeGB": 0.0
+    },
+    "docs": {
+      "HasRequirements": false,
+      "Path": "D:\\myai\\docs",
+      "HasReadme": false,
+      "HasPackageJson": false,
+      "FileCount": 3,
+      "LastModified": "2025-11-08T17:42:08.8126117+01:00",
+      "SizeGB": 0.0
+    },
+    "tracing": {
+      "HasRequirements": false,
+      "Path": "D:\\myai\\tracing",
+      "HasReadme": false,
+      "HasPackageJson": false,
+      "FileCount": 3,
+      "LastModified": "2025-11-08T16:53:35.5040651+01:00",
+      "SizeGB": 0.0
+    },
+    "data": {
+      "HasRequirements": false,
+      "Path": "D:\\myai\\data",
+      "HasReadme": false,
+      "HasPackageJson": false,
+      "FileCount": 3,
+      "LastModified": "2025-11-08T16:52:11.4139324+01:00",
+      "SizeGB": 0.0
+    },
+    "agents": {
+      "HasRequirements": false,
+      "Path": "D:\\myai\\agents",
+      "HasReadme": false,
+      "HasPackageJson": false,
+      "FileCount": 5,
+      "LastModified": "2025-11-08T16:52:11.372089+01:00",
+      "SizeGB": 0.0
+    },
+    "ui": {
+      "HasRequirements": false,
+      "Path": "D:\\myai\\ui",
+      "HasReadme": false,
+      "HasPackageJson": false,
+      "FileCount": 0,
+      "LastModified": "2025-11-08T16:52:11.4047001+01:00",
+      "SizeGB": 0.0
+    },
+    "myai-system": {
+      "HasRequirements": false,
+      "Path": "D:\\myai\\myai-system",
+      "HasReadme": false,
+      "HasPackageJson": false,
+      "FileCount": 1,
+      "LastModified": "2025-11-07T14:27:20.3106716+01:00",
+      "SizeGB": 0.0
+    },
+    "scripts": {
+      "HasRequirements": false,
+      "Path": "D:\\myai\\scripts",
+      "HasReadme": false,
+      "HasPackageJson": false,
+      "FileCount": 1,
+      "LastModified": "2025-11-08T16:56:29.1666533+01:00",
+      "SizeGB": 0.0
+    },
+    "evaluation": {
+      "HasRequirements": false,
+      "Path": "D:\\myai\\evaluation",
+      "HasReadme": false,
+      "HasPackageJson": false,
+      "FileCount": 4,
+      "LastModified": "2025-11-08T16:52:11.3947782+01:00",
+      "SizeGB": 0.0
+    },
+    "venv": {
+      "HasRequirements": false,
+      "Path": "D:\\myai\\venv",
+      "HasReadme": false,
+      "HasPackageJson": false,
+      "FileCount": 881,
+      "LastModified": "2025-11-08T17:59:02.7743713+01:00",
+      "SizeGB": 0.01
+    },
+    "shared": {
+      "HasRequirements": false,
+      "Path": "D:\\myai\\shared",
+      "HasReadme": false,
+      "HasPackageJson": false,
+      "FileCount": 3,
+      "LastModified": "2025-11-08T16:52:11.3861136+01:00",
+      "SizeGB": 0.0
+    }
+  },
+  "KeyFiles": []
+}

@@ -1,0 +1,51 @@
+{
+  "Timestamp": "2026-07-07 00:13:49",
+  "Workspace": "C:\\myAI_System",
+  "IncludeDeepAudit": false,
+  "TotalChecks": 4,
+  "Passed": 3,
+  "Failed": 1,
+  "Missing": 0,
+  "Checks": [
+    {
+      "Name": "Naming Validator",
+      "ScriptPath": "C:\\myAI_System\\scripts\\validation\\validate-naming-rules.ps1",
+      "Args": "",
+      "StartedAt": "2026-07-07 00:13:43",
+      "DurationSec": 1.11,
+      "ExitCode": 1,
+      "Status": "Failed",
+      "OutputPreview": "ParentContainsErrorRecordException: \nLine |\n   3 |  $RawUI.CursorPosition = @{X=0;Y=0}\n     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | Exception setting \"CursorPosition\": \"Nieprawidłowe dojście.\""
+    },
+    {
+      "Name": "Env Sync DryRun",
+      "ScriptPath": "C:\\myAI_System\\scripts\\config\\sync-env-from-gdrive.ps1",
+      "Args": "-DryRun",
+      "StartedAt": "2026-07-07 00:13:44",
+      "DurationSec": 1.29,
+      "ExitCode": 0,
+      "Status": "Passed",
+      "OutputPreview": "?? SYNC .env - Google Drive \u001a C:\\myai\n= * 70\n?? DRY RUN - Konfiguracja sync (bez zmian):\n   Źródło: G:\\Mój dysk\\podreczne - mysite\\myoffice 4-0 dokumentation\\.env\n   Cel:    C:\\myai\\.env\n   Override ENV: MYAI_GDRIVE_ENV\n   Źródło istnieje: False\n   Cel istnieje:    False"
+    },
+    {
+      "Name": "Quick Permissions Check",
+      "ScriptPath": "C:\\myAI_System\\scripts\\diagnostics\\quick-permissions-check.ps1",
+      "Args": "",
+      "StartedAt": "2026-07-07 00:13:45",
+      "DurationSec": 2.21,
+      "ExitCode": 0,
+      "Status": "Passed",
+      "OutputPreview": "?? SZYBKIE SPRAWDZENIE UPRAWNIEŃ I KONFIGURACJI\n= *80\n1??  GIT CONFIGURATION:\n  User:  \n  Email: \n  ??  Brak Git email w konfiguracji globalnej\n  Komenda: git config --global user.email '45501831+tomiwhite@users.noreply.github.com'\n2??  POWERSHELL:\n  Wersja: 7.5.5\n  Edycja: Core\n3??  .NET SDK:\n  ? Zainstalowany: 10.0.109"
+    },
+    {
+      "Name": "Auto Fix WhatIf",
+      "ScriptPath": "C:\\myAI_System\\scripts\\diagnostics\\auto-fix-issues.ps1",
+      "Args": "-WhatIf",
+      "StartedAt": "2026-07-07 00:13:48",
+      "DurationSec": 1.75,
+      "ExitCode": 0,
+      "Status": "Passed",
+      "OutputPreview": "?? AUTO-FIX - Naprawiam Znalezione Problemy\n??  TRYB WHATIF - zmiany nie zostaną zastosowane\n1??  Usuwam martwy link myLM_Studio...\n   ??  Nie znaleziono (może już usunięty)\n2??  Ustawiam Execution Policy...\n   ??  WhatIf: ustawiłbym CurrentUser na RemoteSigned\n3??  Sprawdzam Git config...\n   Aktualne:  <>\n   ??  Brak Git email w konfiguracji globalnej\n   Zalecany: 45501831+tomiwhite@users.noreply.github.com\n   ??  Brak Git user.name w konfiguracji globalnej\n4??  Sprawdzam D:\\myai\\.env..."
+    }
+  ]
+}

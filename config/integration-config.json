@@ -1,0 +1,233 @@
+{
+  "version": "1.0.0",
+  "integration_type": "cross-layer",
+  "description": "Konfiguracja integracji między C:\\myAI_System (System Layer) a D:\\myai (Application Layer)",
+  "created": "2025-11-08",
+  "layers": {
+    "system_layer": {
+      "path": "C:\\myAI_System",
+      "role": "System Management Agent",
+      "responsibilities": [
+        "Zarządzanie dyskami i zasobami",
+        "Czyszczenie i optymalizacja systemu",
+        "Monitoring infrastruktury",
+        "Backupy konfiguracji systemowych"
+      ]
+    },
+    "application_layer": {
+      "path": "D:\\myai",
+      "role": "Multi-Agent Ecosystem",
+      "responsibilities": [
+        "Agenci konwersacyjni i zadaniowi",
+        "Logika biznesowa",
+        "Ewaluacja i tracing",
+        "Interfejsy użytkownika"
+      ]
+    }
+  },
+  "communication": {
+    "shared_config_path": "C:\\myAI_System\\config\\shared-with-d-drive.json",
+    "monitoring_endpoints": {
+      "disk_status": "C:\\myAI_System\\reports\\disk-analysis",
+      "system_metrics": "C:\\myAI_System\\reports\\performance",
+      "cleanup_logs": "C:\\myAI_System\\reports\\cleanup-logs"
+    },
+    "alert_thresholds": {
+      "d_drive_low_space_gb": 50,
+      "d_drive_critical_space_gb": 20,
+      "high_cpu_usage_percent": 80,
+      "high_memory_usage_percent": 85
+    }
+  },
+  "watched_directories": {
+    "d_drive_agents": "D:\\myai\\agents",
+    "d_drive_shared": "D:\\myai\\shared",
+    "d_drive_data": "D:\\myai\\data",
+    "d_drive_evaluation": "D:\\myai\\evaluation",
+    "d_drive_tracing": "D:\\myai\\tracing"
+  },
+  "automation_rules": {
+    "cleanup": {
+      "python_cache": {
+        "enabled": true,
+        "paths": ["D:\\myai\\**\\__pycache__"],
+        "schedule": "daily"
+      },
+      "data_cache": {
+        "enabled": true,
+        "paths": ["D:\\myai\\data\\cache"],
+        "max_age_days": 30
+      },
+      "logs_old": {
+        "enabled": true,
+        "paths": ["D:\\myai\\**\\*.log"],
+        "max_age_days": 90
+      }
+    },
+    "monitoring": {
+      "disk_space": {
+        "enabled": true,
+        "check_interval_minutes": 60,
+        "alert_on_low_space": true
+      },
+      "agent_health": {
+        "enabled": true,
+        "check_paths": [
+          "D:\\myai\\agents\\conversational-agent",
+          "D:\\myai\\evaluation",
+          "D:\\myai\\tracing"
+        ]
+      }
+    },
+    "backups": {
+      "agent_configs": {
+        "enabled": true,
+        "source": "D:\\myai\\shared\\config",
+        "destination": "C:\\myAI_System\\backups\\d-drive-configs",
+        "schedule": "daily"
+      },
+      "requirements": {
+        "enabled": true,
+        "files": [
+          "D:\\myai\\requirements.txt",
+          "D:\\myai\\ai-agent-project\\requirements.txt"
+        ],
+        "destination": "C:\\myAI_System\\backups\\d-drive-configs"
+      }
+    }
+  },
+  "cross_layer_workflows": {
+    "before_agent_start": [
+      "check_disk_space",
+      "check_memory_available",
+      "verify_python_env"
+    ],
+    "after_agent_stop": [
+      "cleanup_temp_files",
+      "archive_logs",
+      "update_metrics"
+    ],
+    "periodic_maintenance": [
+      "cleanup_old_cache",
+      "optimize_disk_d",
+      "backup_configs",
+      "generate_health_report"
+    ]
+  },
+  "reporting": {
+    "ecosystem_health_report": {
+      "enabled": true,
+      "schedule": "daily",
+      "output_path": "C:\\myAI_System\\docs\\reports",
+      "includes": [
+        "disk_usage_d_drive",
+        "active_agents_status",
+        "cache_sizes",
+        "cleanup_recommendations"
+      ]
+    }
+  },
+  "environment_config": {
+    "description": "Hierarchia plików .env - od najbardziej ogólnych do specyficznych",
+    "hierarchy": {
+      "level_1_master": {
+        "path": "C:\\myai\\.env",
+        "priority": 1,
+        "purpose": "Poufne klucze API, hasła, tokeny - centralny dla całego ekosystemu myai",
+        "scope": "global",
+        "example_vars": [
+          "OPENAI_API_KEY",
+          "GITHUB_TOKEN",
+          "DATABASE_PASSWORD",
+          "AZURE_SUBSCRIPTION_ID"
+        ],
+        "backup": "C:\\myAI_System\\backups\\config-backups\\.env.master.backup",
+        "security": "Nigdy nie commitować, dodać do .gitignore",
+        "sync_from": "G:\\Mój dysk\\podreczne - mysite\\myoffice 4-0 dokumentation\\.env"
+      },
+      "level_2_application": {
+        "path": "D:\\myai\\.env",
+        "priority": 2,
+        "purpose": "Konfiguracja całej aplikacji D:\\myai",
+        "scope": "application",
+        "example_vars": [
+          "ENVIRONMENT=development",
+          "LOG_LEVEL=INFO",
+          "API_PORT=8000",
+          "SHARED_CONFIG_PATH=D:\\myai\\shared\\config"
+        ],
+        "backup": "C:\\myAI_System\\backups\\d-drive-configs\\.env.application.backup",
+        "security": "Można commitować (bez sekretów)"
+      },
+      "level_3_agent_specific": {
+        "path": "D:\\myai\\agents\\{agent-name}\\.env.local",
+        "priority": 3,
+        "purpose": "Nadpisania specyficzne dla agenta",
+        "scope": "agent",
+        "example_vars": [
+          "AGENT_LOG_LEVEL=DEBUG",
+          "AGENT_MAX_TOKENS=4000",
+          "AGENT_TEMPERATURE=0.7"
+        ],
+        "backup": "Opcjonalne - tylko dla agentów produkcyjnych",
+        "security": "Lokalne, nie commitować"
+      }
+    },
+    "loading_order": {
+      "description": "Agenci ładują zmienne w kolejności od najbardziej ogólnych do specyficznych",
+      "steps": [
+        "1. Załaduj C:\\myai\\.env (MASTER - klucze API dla całego ekosystemu)",
+        "2. Załaduj D:\\myai\\.env (APPLICATION - config projektu D:\\myai)",
+        "3. Załaduj D:\\myai\\agents\\{agent-name}\\.env.local (AGENT - nadpisania)",
+        "4. Zmienne z późniejszych kroków nadpisują wcześniejsze"
+      ]
+    },
+    "sync": {
+      "description": "Synchronizacja MASTER .env z Google Drive",
+      "source": "G:\\Mój dysk\\podreczne - mysite\\myoffice 4-0 dokumentation\\.env",
+      "target": "C:\\myai\\.env",
+      "method": "Copy on startup or manual sync",
+      "backup_before_sync": true
+    },
+    "implementation": {
+      "python_example": "from dotenv import load_dotenv; load_dotenv('C:\\\\myai\\\\.env'); load_dotenv('D:\\\\myai\\\\.env'); load_dotenv('.env.local')",
+      "recommended_library": "python-dotenv",
+      "validation": "Agenci powinni sprawdzać czy C:\\myai\\.env istnieje przed startem"
+    },
+    "backup_strategy": {
+      "master_env": {
+        "source": "C:\\myai\\.env",
+        "frequency": "daily",
+        "destination": "C:\\myAI_System\\backups\\config-backups",
+        "encryption": "recommended",
+        "retention_days": 90,
+        "sync_to_gdrive": "G:\\Mój dysk\\podreczne - mysite\\myoffice 4-0 dokumentation\\.env"
+      },
+      "application_env": {
+        "frequency": "daily",
+        "destination": "C:\\myAI_System\\backups\\d-drive-configs",
+        "encryption": "optional",
+        "retention_days": 30
+      }
+    },
+    "security_rules": {
+      "master_env": [
+        "Przechowywać w C:\\myai\\.env (MASTER dla całego ekosystemu)",
+        "Synchronizować z G:\\Mój dysk\\podreczne - mysite\\myoffice 4-0 dokumentation\\.env",
+        "Dodać do .gitignore globalnie (C:\\myai i D:\\myai)",
+        "Nigdy nie logować wartości zmiennych",
+        "Backup codziennie do C:\\myAI_System\\backups"
+      ],
+      "application_env": [
+        "Można commitować do repo (bez sekretów)",
+        "Używać placeholderów: API_KEY=<set-in-master-env>",
+        "Dokumentować wymagane zmienne w README"
+      ],
+      "agent_env": [
+        "Opcjonalne, tylko dla testów lokalnych",
+        "Dodać *.env.local do .gitignore",
+        "Usuwać po zakończeniu developmentu"
+      ]
+    }
+  }
+}

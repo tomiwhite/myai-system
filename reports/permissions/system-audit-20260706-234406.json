@@ -1,0 +1,18 @@
+{
+  "Issues": [],
+  "Details": {
+    "BrokenServices": 3,
+    "EmptyDirs": 4,
+    "ForeignFiles": 0,
+    "OrphanedKeys": 5,
+    "SuspiciousDirs": 14
+  },
+  "Warnings": [
+    "Ograniczone uprawnienia: C:\\myAI_System",
+    "Puste foldery w Program Files: 4",
+    "Podejrzane foldery AppData: 14",
+    "Osierocone wpisy rejestru: 5",
+    "Usługi z nieistniejącymi plikami: 3"
+  ],
+  "Timestamp": "2026-07-06 23:44:06"
+}

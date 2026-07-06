@@ -1,0 +1,89 @@
+═══════════════════════════════════════════════════════════════════════════
+                        🔑 .env SYSTEM - INFO
+═══════════════════════════════════════════════════════════════════════════
+
+✅ AKTUALNY STATUS:
+
+  C:\myai\.env (MASTER)
+  ├─ Status: ✅ UZUPEŁNIONY
+  ├─ Zmiennych: 29
+  ├─ Rozmiar: 4770 bajtów
+  ├─ Data: 2025-11-08 18:35:53
+  └─ Źródło: G:\Mój dysk\podreczne - mysite\myoffice 4-0 dokumentation\.env
+
+───────────────────────────────────────────────────────────────────────────
+
+📝 SZYBKI START:
+
+  1. MASTER .env już istnieje → C:\myai\.env
+  
+  2. Utwórz APPLICATION .env:
+     Copy-Item D:\myai\.env.template D:\myai\.env
+     code D:\myai\.env
+  
+  3. Załaduj w Python:
+     from dotenv import load_dotenv
+     load_dotenv("C:/myai/.env")
+     load_dotenv("D:/myai/.env")
+
+───────────────────────────────────────────────────────────────────────────
+
+📚 DOKUMENTACJA:
+
+  Główna instrukcja:
+  → C:\myAI_System\docs\quickstart\AGENT-STARTUP-ENV.md (13.6KB)
+  
+  Quick reference:
+  → C:\myAI_System\docs\quickref\ENV-MANAGEMENT.md (7.4KB)
+  
+  Diagram wizualny:
+  → C:\myAI_System\docs\diagrams\ENV-SCHEMA.txt (17KB)
+  
+  Szczegóły techniczne:
+  → C:\myAI_System\docs\architecture\20251108182000-env-management.md (8.7KB)
+
+───────────────────────────────────────────────────────────────────────────
+
+🔧 NARZĘDZIA:
+
+  Sync z Google Drive:
+  → C:\myAI_System\scripts\config\sync-env-from-gdrive.ps1
+  
+  Parametry:
+  -DryRun   = Symulacja bez zmian
+  -Force    = Wymuś sync (nawet jeśli lokalny nowszy)
+
+───────────────────────────────────────────────────────────────────────────
+
+🗺️  HIERARCHIA:
+
+  POZIOM 1: C:\myai\.env (MASTER)
+  ├─ Priorytet: 1 (bazowy)
+  ├─ Zawiera: API keys, hasła, tokeny
+  └─ Read-only, backup codziennie
+            ↓ override
+  POZIOM 2: D:\myai\.env (APPLICATION)
+  ├─ Priorytet: 2 (nadpisuje poziom 1)
+  ├─ Zawiera: Config projektu, ścieżki, porty
+  └─ Można commitować (bez sekretów)
+            ↓ override
+  POZIOM 3: agents/{name}/.env.local (AGENT)
+  ├─ Priorytet: 3 (najwyższy)
+  ├─ Zawiera: Tymczasowe nadpisania dla testów
+  └─ NIE commitować
+
+───────────────────────────────────────────────────────────────────────────
+
+🎯 CO GDZIE:
+
+  API Keys, hasła → C:\myai\.env (MASTER)
+  Config projektu → D:\myai\.env (APPLICATION)
+  Testy lokalne   → agents/{name}/.env.local (AGENT)
+
+───────────────────────────────────────────────────────────────────────────
+
+📅 Utworzono: 2025-11-08
+🔄 Ostatni sync: 2025-11-08 18:35:53
+✅ Status: Gotowy do użycia
+
+═══════════════════════════════════════════════════════════════════════════
