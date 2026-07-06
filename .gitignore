@@ -1,0 +1,8 @@
+# Local runtime backups generated during restore/recovery sessions
+backups/config-backups/PowerToys-current-*/
+
+# Optional local logs/cache artifacts
+*.log
+
+# Keep named script backups under version control if needed
+!backups/config-backups/validate-naming-rules-v1-backup.ps1
