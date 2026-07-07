@@ -7,7 +7,7 @@
 # ZASADY:
 # - Timestamp TYLKO dla dokumentów MD w docs/ (work-logs, reports, architecture)
 # - Skrypty, konfigi, kod agentów - NORMALNE NAZWY (bez timestampu)
-# - Wyjątki docs/: quickref, quickstart, user-guide, diagrams (bez timestampu)
+# - Wyjątki docs/: quickref, quickstart, user-guide, management, diagrams (bez timestampu)
 #
 # Uruchom: .\scripts\validation\validate-naming-rules.ps1
 # ============================================================================
@@ -103,7 +103,7 @@ if (Test-Path $docsRoot) {
     $docsFiles = Get-ChildItem -Path $docsRoot -Recurse -File -Filter "*.md"
     
     # Katalogi wyjątków (reference docs - bez timestampu)
-    $exceptionDirs = @("quickref", "quickstart", "user-guide", "diagrams")
+    $exceptionDirs = @("quickref", "quickstart", "user-guide", "management", "diagrams")
     
     # Katalogi WYMAGAJĄCE timestampu
     $requiredTimestampDirs = @("work-logs", "reports", "architecture")

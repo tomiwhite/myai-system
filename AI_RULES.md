@@ -24,6 +24,7 @@
 - `docs/quickref/` - Quick reference guides (bez timestampu)
 - `docs/quickstart/` - Quick start guides (bez timestampu)
 - `docs/user-guide/` - User guides (bez timestampu)
+- `docs/management/` - Polityki governance, ledger zmian, status delivery (bez timestampu)
 - `docs/diagrams/` - Diagramy i schematy (bez timestampu)
 - `docs/*.txt` - Pliki tekstowe reference (bez timestampu)
 
@@ -74,6 +75,7 @@ myAI_System/
     ├── architecture/      ← 20251108-*.md ✅
     ├── quickref/          ← ENV-MANAGEMENT.md (bez TS)
     ├── quickstart/        ← AGENT-STARTUP-ENV.md (bez TS)
+    ├── management/        ← DELIVERY-LEDGER.md (bez TS)
     └── user-guide/        ← ONE-CLICK-STARTER.md (bez TS)
 ```
 
@@ -85,6 +87,29 @@ myAI_System/
 2. **Raporty techniczne MD** → `docs/reports/YYYYMMDDHHMMSS-report-name.md`
 3. **Dokumentacja architektury** → `docs/architecture/YYYYMMDDHHMMSS-doc-name.md`
 4. **Raporty JSON** → `reports/disk-analysis/` (bez timestampu w nazwie folderu)
+5. **Polityki governance i ledger zmian** → `docs/management/*.md` (bez timestampu)
+
+### Klasy raportowania
+
+1. **`docs/work-logs/`**
+    - chronologiczny dziennik sesji AI / operatora
+    - co zostalo zmienione, sprawdzone i dlaczego
+
+2. **`docs/reports/`**
+    - raporty opisowe z diagnostyki, audytu, cleanup, rolloutu lub aktualizacji
+    - dokumenty punktowe, timestampowane, odnoszace sie do konkretnego przebiegu
+
+3. **`docs/management/`**
+    - stale dokumenty governance dla rozbudowy i utrzymania projektu
+    - polityka raportowania, ledger zmian produkcyjnych, status delivery
+    - sluzy do odroznienia prac nad budowa/rozbudowa/aplikacja od raportow runtime/system
+
+### Minimalny rygor raportowania dla AI
+
+1. Kazda nietrywialna sesja zmieniajaca repo wymaga wpisu do `docs/work-logs/`.
+2. Kazda zmiana dotyczaca budowy, rozbudowy, aktualizacji, governance albo automatyzacji projektu wymaga tez aktualizacji `docs/management/DELIVERY-LEDGER.md`.
+3. Jesli sesja ma wynik diagnostyczny, audytowy lub wdrozeniowy z wnioskami dla operatora, powstaje tez raport w `docs/reports/`.
+4. Brak wpisu do work-logu i brak aktualizacji ledgera przy zmianach produkcyjnych traktuj jako niekompletne wykonanie zadania.
 
 ### Podczas tworzenia backupów:
 

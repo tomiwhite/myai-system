@@ -45,6 +45,7 @@ C:\myAI_System/
 │   ├── reports/                # Raporty opisowe (MD)
 │   ├── work-logs/              # Dzienniki pracy sesji
 │   ├── architecture/           # Dokumentacja architektury
+│   ├── management/             # Governance, ledger zmian, polityki raportowania
 │   ├── quickref/               # Quick reference guides
 │   ├── quickstart/             # Quick start guides
 │   ├── user-guide/             # Instrukcje użytkownika
@@ -90,6 +91,7 @@ C:\myAI_System/
 - `docs/quickref/` - Quick reference guides (stałe)
 - `docs/quickstart/` - Quick start guides (stałe)
 - `docs/user-guide/` - User guides (stałe)
+- `docs/management/` - governance, ledger zmian, polityki raportowania (stałe)
 - `docs/diagrams/` - Diagramy i schematy (stałe)
 
 #### Format timestampu (TYLKO dla docs/):
@@ -263,6 +265,36 @@ $reportFile = "C:\myAI_System\docs\reports\$timestamp-disk-analysis-summary.md"
 - Cleanup recommended
 "@ | Out-File $reportFile -Encoding UTF8
 ```
+
+### Governance / delivery tracking → `docs/management/`
+
+Pliki stałe, bez timestampu, do rozróżniania zmian projektowych od raportów runtime:
+- `docs/management/REPORTING-POLICY.md` - reguły klasyfikacji raportów i wymagany rygor
+- `docs/management/DELIVERY-LEDGER.md` - skrócony ledger zmian produkcyjnych, rozbudowy i aktualizacji
+
+## 🧭 Rygor Raportowania Operacyjnego
+
+### Rozróżnienie klas dokumentów
+
+1. **`docs/work-logs/`**
+    - dziennik przebiegu sesji AI / operatora
+    - obowiązkowy dla każdej nietrywialnej pracy w repo
+
+2. **`docs/reports/`**
+    - timestampowane raporty wynikowe z audytów, diagnostyki, cleanup, rolloutów i aktualizacji
+    - dla operatora, z wnioskami i walidacją
+
+3. **`docs/management/`**
+    - stała warstwa governance
+    - polityki, status delivery, ledger prac nad budową / rozbudową / aktualizacją projektu
+    - ma być logicznie oddzielona od raportów runtime systemu i działania aplikacji
+
+### Obowiązki AI po zmianach
+
+1. Po każdej nietrywialnej zmianie w repo AI tworzy albo aktualizuje wpis w `docs/work-logs/`.
+2. Po każdej zmianie projektowej, produkcyjnej, architektonicznej lub automatyzacyjnej AI aktualizuje `docs/management/DELIVERY-LEDGER.md`.
+3. Gdy sesja kończy się wynikiem diagnostycznym, migracyjnym, rolloutem albo przeglądem ryzyk, AI zapisuje też raport do `docs/reports/`.
+4. Brak odpowiedniego wpisu dokumentacyjnego oznacza, że praca nie jest domknięta.
 
 ## 🎯 Wzorce Architektoniczne
 
@@ -556,8 +588,9 @@ Pracując z tym projektem:
 7. **ZAWSZE używaj funkcji Write-* do outputu**
 8. **ZAWSZE sprawdzaj .env MASTER przed pracą z agentami**
 9. **ZAWSZE dokumentuj work-log dla sesji (z timestampem w docs/)**
+10. **ZAWSZE aktualizuj docs/management/DELIVERY-LEDGER.md przy zmianach produkcyjnych, rozbudowie, aktualizacjach i governance**
 
 **Priorytet 1**: Zgodność z AI_RULES.md (timestamp TYLKO w docs/)
 **Priorytet 2**: Backup przed zmianą
 **Priorytet 3**: Diagnostyka przed operacją
-**Priorytet 4**: Dokumentacja i raporty
+**Priorytet 4**: Dokumentacja, ledger i raporty

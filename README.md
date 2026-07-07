@@ -64,9 +64,21 @@ myAI_System/
     ├── quickstart/            # Szybki start
     ├── quickref/              # Szybkie odniesienia
     ├── architecture/          # Dokumentacja architektury
+   ├── management/            # Governance i ledger zmian projektowych
     ├── work-logs/             # Historia pracy
     └── diagrams/              # Schematy i diagramy
 ```
+
+## 🧾 Polityka Raportowania
+
+Dokumentacja jest logicznie rozdzielona na trzy warstwy:
+
+- `docs/work-logs/` - przebieg sesji i wykonanych prac
+- `docs/reports/` - timestampowane raporty wynikowe z diagnostyki, rolloutów i przeglądów ryzyk
+- `docs/management/` - stałe dokumenty governance dla budowy, rozbudowy, aktualizacji i statusu delivery projektu
+
+Ta trzecia warstwa istnieje po to, żeby zmiany produkcyjne i rozwojowe nie mieszały się z raportami runtime systemu.
+
 
 ## 🔗 Integracja z ekosystemem myAI
 
