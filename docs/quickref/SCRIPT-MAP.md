@@ -41,6 +41,10 @@
 3. `scripts/diagnostics/deep-system-audit.ps1` albo `scripts/diagnostics/audit-permissions.ps1`
 4. Dopiero potem wybrany cleanup lub skrypt naprawczy
 
+## Checklisty operacyjne
+
+- `docs/quickref/POST-RELOAD-CHECKLIST.md` - szybka lista kontrolna po reloadzie, aktualizacji PowerShell/Ollama i przywracaniu PowerToys.
+
 ## Czego nie uruchamiac w ciemno
 
 - Nie uruchamiaj `deep-cleanup-admin.ps1`, `auto-cleanup.ps1`, `auto-cleanup-orphaned.ps1` ani `remove-euvkbd-driver.ps1 -Execute` bez backupu i bez sprawdzenia listy zmian.
