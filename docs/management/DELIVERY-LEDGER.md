@@ -86,3 +86,20 @@ Stały rejestr zmian projektowych, produkcyjnych i governance dla C:\myAI_System
 - Validation:
   - walidator nazewnictwa
   - przegląd struktury docs i zgodności klas raportowania
+
+### Governance Discoverability Index
+
+- Status: done
+- Category: governance, documentation, discoverability
+- Scope:
+  - dodano stały indeks governance dla szybkiego wejścia operatora
+  - podłączono indeks do README i mapy skryptów
+  - poprawiono czytelność sekcji struktury docs w README
+- Key Files:
+  - `docs/quickref/GOVERNANCE-INDEX.md`
+  - `README.md`
+  - `docs/quickref/SCRIPT-MAP.md`
+- Validation:
+  - przegląd linków dokumentacyjnych
+  - zgodność z polityką raportowania
+

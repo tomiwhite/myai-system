@@ -79,6 +79,8 @@ Dokumentacja jest logicznie rozdzielona na trzy warstwy:
 
 Ta trzecia warstwa istnieje po to, żeby zmiany produkcyjne i rozwojowe nie mieszały się z raportami runtime systemu.
 
+Szybki indeks governance: [docs/quickref/GOVERNANCE-INDEX.md](docs/quickref/GOVERNANCE-INDEX.md)
+
 
 ## 🔗 Integracja z ekosystemem myAI
 

@@ -45,6 +45,12 @@
 
 - `docs/quickref/POST-RELOAD-CHECKLIST.md` - szybka lista kontrolna po reloadzie, aktualizacji PowerShell/Ollama i przywracaniu PowerToys.
 
+## Governance i delivery
+
+- `docs/quickref/GOVERNANCE-INDEX.md` - szybki indeks polityk governance i ledgera zmian projektowych.
+- `docs/management/REPORTING-POLICY.md` - rygor raportowania i rozróżnienie warstw dokumentacji.
+- `docs/management/DELIVERY-LEDGER.md` - stały rejestr zmian produkcyjnych, rozbudowy i aktualizacji.
+
 ## Czego nie uruchamiac w ciemno
 
 - Nie uruchamiaj `deep-cleanup-admin.ps1`, `auto-cleanup.ps1`, `auto-cleanup-orphaned.ps1` ani `remove-euvkbd-driver.ps1 -Execute` bez backupu i bez sprawdzenia listy zmian.
