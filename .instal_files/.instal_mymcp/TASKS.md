@@ -1,5 +1,30 @@
 # Kolejka zadan naprawczych po restarcie (2026-07-08)
 
+## P0 - Hardened autostart (only stable components)
+Status: DONE
+
+Cel:
+- zostawic w autostarcie tylko rzeczy stabilne i potrzebne
+- zablokowac taski wywolujace niestabilny/autonomiczny start MCP-agent chat i wymuszone restarty
+
+Wykonane:
+1. Wylaczono task restartu wymuszonego:
+   - `Planned-Restart-MCP-VSCode` -> Disabled
+2. Wylaczono ciezki task auto-agent:
+   - `VSCode-AutoRestore-AgentCheck` -> Disabled
+3. Dodano nowy task bezpieczny:
+   - `myAI-System-SafeAutostart` -> Enabled (AtLogOn, delay 45s)
+   - uruchamia: `C:\myAI_System\scripts\startup\start-myai-system-safe.ps1`
+4. Usunieto problematyczne rozszerzenie VS Code:
+   - `ms-edgedevtools.vscode-edge-devtools` (powtarzajace bledy runtime i zamulanie)
+5. Walidacja E2E:
+   - skrypt safe uruchamia workspace i zapisuje `reports/post-restart-check.txt`
+
+Kryterium Done:
+- autostart odpala tylko stabilny workspace C:\myAI_System
+- brak auto-uruchamiania `code chat --mode agent`
+- brak tasku restartujacego system z `/f`
+
 ## P0 - VS Code: ENOPRO / unknown:/ brak dostawcy systemu plikow
 Status: IN_PROGRESS
 Objaw: "ENOPRO: Nie znaleziono dostawcy systemu plikow dla zasobu unknown:/.vscode/settings.json"

@@ -163,4 +163,23 @@ Stały rejestr zmian projektowych, produkcyjnych i governance dla C:\myAI_System
   - `git var GIT_COMMITTER_IDENT`
   - restart PowerToys i potwierdzenie procesu `PowerToys.FancyZones`
 
+### MCP And Autostart Hardening (Safe Mode)
+
+- Status: done
+- Category: startup, stability, operations
+- Scope:
+  - wylaczono taski powodujace niestabilny start i nadmiarowe obciazenie (`Planned-Restart-MCP-VSCode`, `VSCode-AutoRestore-AgentCheck`)
+  - dodano bezpieczny task logowania `myAI-System-SafeAutostart` z opoznieniem 45s
+  - wdrozono lekki skrypt `start-myai-system-safe.ps1` (bez auto-chat, bez wymuszonych restartow)
+  - usunieto rozszerzenie `ms-edgedevtools.vscode-edge-devtools` generujace bledy runtime i spowolnienia
+- Key Files:
+  - `scripts/startup/start-myai-system-safe.ps1`
+  - `.instal_files/.instal_mymcp/TASKS.md`
+  - `docs/work-logs/20260708120029-mcp-autostart-hardening.md`
+  - `docs/reports/20260708120029-mcp-autostart-hardening-report.md`
+- Validation:
+  - `Get-ScheduledTask -TaskName myAI-System-SafeAutostart`
+  - uruchomienie `start-myai-system-safe.ps1`
+  - odczyt `reports/post-restart-check.txt`
+
 

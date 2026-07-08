@@ -1,14 +1,6 @@
-﻿Timestamp: 2026-07-08 07:27:17
-WorkspaceExpected: C:\myAI_System\myai-system.code-workspace
-RepoRoot: C:\myAI_System
-
-File checks:
-- D:\.backup\MAPA_SYSTEMU_MCP_CLAUDE.md => True
-- P:\.backup\MAPA_SYSTEMU_MCP_CLAUDE.md => True
-- D:\myOffice\.instal_files\.instal_mymcp\MAPA_SYSTEMU_MCP_CLAUDE.md => True
-- C:\myai_System\.instal_files\.instal_mymcp\MAPA_SYSTEMU_MCP_CLAUDE.md => True
-- D:\myOffice\.instal_files\.instal_mymcp\claude_desktop_config_AKTUALNY-multidrive.json => True
-- C:\myai_System\.instal_files\.instal_mymcp\claude_desktop_config_AKTUALNY-multidrive.json => True
-
-Task checks:
-- VSCode-AutoRestore-AgentCheck: Running
+﻿Timestamp: 2026-07-08 12:00:18
+Mode: SAFE_AUTOSTART
+WorkspaceUsed: C:\myAI_System\myai-system.code-workspace
+RepoRootExists: True
+CodeExe: C:\Program Files\Microsoft VS Code\Code.exe
+TaskPolicy: no-auto-chat no-forced-restart
