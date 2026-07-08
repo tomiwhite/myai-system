@@ -121,4 +121,46 @@ Stały rejestr zmian projektowych, produkcyjnych i governance dla C:\myAI_System
   - walidator nazewnictwa
   - przegląd linków i rozróżnienia warstw dokumentacji
 
+### VS Code Terminal And Docker WSL Recovery
+
+- Status: done
+- Category: recovery, environment, operations
+- Scope:
+  - usunieto glowny trigger odtwarzania sesji VS Code z nieistniejacej sciezki `G:\Moj dysk\myOffice_system\myOffice`
+  - przywrocono runtime Docker Desktop i WSL (`docker-desktop`)
+  - zweryfikowano aktualny stan danych Dockera na `C:` i `P:`
+- Key Files:
+  - `docs/work-logs/20260708082618-vscode-docker-wsl-recovery.md`
+  - `docs/reports/20260708082618-vscode-docker-wsl-recovery-report.md`
+- Validation:
+  - `wsl -l -v`
+  - `docker context ls`
+  - `docker info --format "{{.DockerRootDir}} | {{.OperatingSystem}} | {{.ServerVersion}}"`
+
+### Docker Path Finalization, Git Identity Fallback And PowerToys Recovery
+
+- Status: done
+- Category: recovery, configuration, operations
+- Scope:
+  - przygotowano i utrwalono bezpieczna konfiguracje Docker Engine (`daemon` JSON) dla Desktop 29.6.1
+  - dodano instrukcje operacyjne dla `Resources -> Advanced`, `File sharing` i scenariusza konsolidacji danych WSL Dockera
+  - zweryfikowano, ze duze obrazy VHDX na `P:` sa duplikatem historycznym i nie nalezy ich scalac na poziomie plikow
+  - ustawiono globalny fallback tozsamosci Git (`user.name`, `user.email`) dla repo bez lokalnej konfiguracji
+  - wykonano recovery PowerToys/FancyZones (backup stanu, restart modulow, ograniczenie konfliktu drag-hook przez wylaczenie GrabAndMove)
+  - dodano automatyczny changelog HTML dla warstwy management
+- Key Files:
+  - `config/docker-desktop-engine.safe.json`
+  - `docs/quickref/DOCKER-DESKTOP-SETTINGS.md`
+  - `docs/work-logs/20260708115315-ops-closure-docker-git-powertoys.md`
+  - `docs/reports/20260708115315-ops-closure-docker-git-powertoys-report.md`
+  - `docs/management/CHANGELOG-AUTO.html`
+  - `.instal_files/.instal_mymcp/TASKS.md`
+- Validation:
+  - `docker info`
+  - `wsl --status`
+  - `wsl -l -v --all`
+  - `git var GIT_AUTHOR_IDENT`
+  - `git var GIT_COMMITTER_IDENT`
+  - restart PowerToys i potwierdzenie procesu `PowerToys.FancyZones`
+
 

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myAI System - Changelog Automatyczny</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #0d1117;
+            color: #c9d1d9;
+        }
+        .header {
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .session {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            margin: 20px 0;
+            padding: 20px;
+        }
+        .hourly {
+            background: #0d1421;
+            border-left: 4px solid #2ea043;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        .summary {
+            background: #1c2128;
+            border-left: 4px solid #f85149;
+            padding: 20px;
+            margin: 15px 0;
+        }
+        .timestamp {
+            color: #7d8590;
+            font-size: 0.9em;
+            font-family: 'Courier New', monospace;
+        }
+        .task {
+            margin: 8px 0;
+            padding: 8px 12px;
+            background: #21262d;
+            border-radius: 5px;
+        }
+        .status-complete { color: #2ea043; }
+        .status-progress { color: #d29922; }
+        .status-pending { color: #7d8590; }
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .metric {
+            background: #0d1421;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #21262d;
+        }
+        .auto-note {
+            font-style: italic;
+            color: #58a6ff;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>myAI System - Changelog Automatyczny</h1>
+        <p><strong>Repo:</strong> C:\myAI_System | <strong>Branch:</strong> main</p>
+        <p class="timestamp">Ostatnia aktualizacja: <span id="lastUpdate">2026-07-08 11:53:15</span></p>
+    </div>
+
+    <div class="session">
+        <h2>Sesja operacyjna - 2026-07-08</h2>
+        <div class="timestamp">Rozpoczecie: 08:00+ | Status: COMPLETED</div>
+
+        <div class="hourly">
+            <h3>Raport zbiorczy - Docker / Git / PowerToys</h3>
+            <div class="auto-note">Automatycznie wygenerowany wpis sesji dla management layer</div>
+
+            <div class="metrics">
+                <div class="metric">
+                    <strong>Docker i WSL</strong><br>
+                    <span class="status-complete">OK: runtime zweryfikowany</span><br>
+                    <span class="status-complete">OK: instrukcja Resources/File sharing</span><br>
+                    <span class="status-progress">Monitor: stabilnosc po kolejnych restartach</span>
+                </div>
+
+                <div class="metric">
+                    <strong>Git</strong><br>
+                    <span class="status-complete">OK: fallback global user.name</span><br>
+                    <span class="status-complete">OK: fallback global user.email</span><br>
+                    <span class="status-complete">OK: author/committer ident</span>
+                </div>
+
+                <div class="metric">
+                    <strong>PowerToys</strong><br>
+                    <span class="status-complete">OK: restart modulow</span><br>
+                    <span class="status-complete">OK: FancyZones aktywny</span><br>
+                    <span class="status-complete">OK: GrabAndMove disabled</span>
+                </div>
+
+                <div class="metric">
+                    <strong>Dokumentacja</strong><br>
+                    <span class="status-complete">OK: Delivery Ledger update</span><br>
+                    <span class="status-complete">OK: Work-log i report</span><br>
+                    <span class="status-complete">OK: Changelog bootstrap</span>
+                </div>
+            </div>
+
+            <div class="task">
+                <strong>Wykonane akcje:</strong>
+                <ul>
+                    <li>Dodano bezpieczny baseline Docker Engine JSON</li>
+                    <li>Uzupelniono task queue i governance artifacts</li>
+                    <li>Utworzono staly changelog HTML dla sesji operacyjnych</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="session">
+        <h2>Template nastepnej sesji</h2>
+        <div class="summary">
+            <h3>Podsumowanie (template)</h3>
+            <div class="auto-note">Wzorzec dla kolejnych wpisow automatycznych</div>
+
+            <div class="task">
+                <strong>Zmiany:</strong>
+                <ul>
+                    <li>[AUTO] pliki zmienione w repo</li>
+                    <li>[AUTO] status Docker/WSL</li>
+                    <li>[AUTO] status Git identity i remote</li>
+                </ul>
+            </div>
+
+            <div class="task">
+                <strong>Metryki sesji:</strong>
+                <ul>
+                    <li>Czas trwania: [AUTO_CALCULATE]</li>
+                    <li>Zmodyfikowane pliki: [AUTO_COUNT]</li>
+                    <li>Backup artifacts: [AUTO_COUNT]</li>
+                    <li>Commits: [AUTO_COUNT]</li>
+                </ul>
+            </div>
+
+            <div class="task">
+                <strong>Nastepne kroki:</strong>
+                <ul>
+                    <li>[AUTO] walidacja po restarcie</li>
+                    <li>[AUTO] cleanup stale backupy lokalne</li>
+                    <li>[AUTO] update docs/management ledger</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="session">
+        <h2>Konfiguracja automatyzacji</h2>
+        <div class="task">
+            <strong>Zasady:</strong>
+            <ul>
+                <li>Raport sesji po kazdej zmianie nietrywialnej</li>
+                <li>Update ledger przy zmianach produkcyjnych i governance</li>
+                <li>Linkowanie work-log <-> report <-> ledger</li>
+                <li>Walidacja Git status przed commit</li>
+            </ul>
+        </div>
+
+        <div class="task">
+            <strong>Lokalizacja:</strong>
+            <ul>
+                <li>Plik staly: docs/management/CHANGELOG-AUTO.html</li>
+                <li>Work-log: docs/work-logs/</li>
+                <li>Report: docs/reports/</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function updateTimestamp() {
+            const now = new Date();
+            const timestamp = now.toISOString().replace('T', ' ').substring(0, 19);
+            document.getElementById('lastUpdate').textContent = timestamp;
+        }
+
+        setInterval(updateTimestamp, 30000);
+        updateTimestamp();
+    </script>
+</body>
+</html>
