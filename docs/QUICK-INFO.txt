@@ -5,6 +5,23 @@
 ║                                                                          ║
 ╚══════════════════════════════════════════════════════════════════════════╝
 
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ 🔟 GOVERNANCE I DELIVERY                                                │
+└──────────────────────────────────────────────────────────────────────────┘
+
+Jeśli szukasz zmian projektowych (budowa, rozbudowa, aktualizacje):
+
+1. C:\myAI_System\docs\quickref\GOVERNANCE-INDEX.md
+2. C:\myAI_System\docs\management\REPORTING-POLICY.md
+3. C:\myAI_System\docs\management\DELIVERY-LEDGER.md
+
+Jeśli szukasz działania runtime systemu:
+
+1. C:\myAI_System\docs\work-logs\
+2. C:\myAI_System\docs\reports\
+
+
 ┌──────────────────────────────────────────────────────────────────────────┐
 │ 1️⃣  PIERWSZA KONFIGURACJA (RAZ NA ZAWSZE)                              │
 └──────────────────────────────────────────────────────────────────────────┘

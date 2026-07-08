@@ -103,3 +103,22 @@ Stały rejestr zmian projektowych, produkcyjnych i governance dla C:\myAI_System
   - przegląd linków dokumentacyjnych
   - zgodność z polityką raportowania
 
+## 2026-07-08
+
+### Governance Entry Points In Quickstart Layer
+
+- Status: done
+- Category: governance, documentation, onboarding
+- Scope:
+  - dodano widoczne wejście governance do `QUICKSTART.md`
+  - dodano sekcję governance do `docs/QUICK-INFO.txt`
+  - podłączono `ENV-MANAGEMENT.md` do polityki raportowania
+- Key Files:
+  - `QUICKSTART.md`
+  - `docs/QUICK-INFO.txt`
+  - `docs/quickref/ENV-MANAGEMENT.md`
+- Validation:
+  - walidator nazewnictwa
+  - przegląd linków i rozróżnienia warstw dokumentacji
+
+

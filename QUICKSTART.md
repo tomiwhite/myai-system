@@ -72,6 +72,19 @@ AI_RULES.md
 - **C:\myAI_System** - Zarządzanie maszyną (ten katalog)
 - **D:\myai** - Ekosystem multi-agentowy
 
+## 🧭 Governance i Delivery
+
+Dokumenty rozwojowe i produkcyjne (oddzielone od runtime):
+
+- `docs/quickref/GOVERNANCE-INDEX.md` - szybki punkt wejścia
+- `docs/management/REPORTING-POLICY.md` - polityka raportowania
+- `docs/management/DELIVERY-LEDGER.md` - rejestr zmian projektowych i produkcyjnych
+
+Dokumenty operacyjne runtime:
+
+- `docs/work-logs/` - przebieg sesji
+- `docs/reports/` - raporty wynikowe z diagnostyki i rolloutów
+
 ## � Konfiguracja .env
 
 **WAŻNE**: Przed rozpoczęciem pracy z agentami!

@@ -2,6 +2,16 @@
 
 **Quick Reference** - jeden centralny `.env` dla wszystkich agentów
 
+Powiązane governance:
+
+- `docs/quickref/GOVERNANCE-INDEX.md`
+- `docs/management/REPORTING-POLICY.md`
+
+Rozróżnienie dokumentacji:
+
+- zmiany projektowe i produkcyjne: `docs/management/`
+- przebieg sesji i wynik runtime: `docs/work-logs/`, `docs/reports/`
+
 ---
 
 ## 📍 Struktura Plików
