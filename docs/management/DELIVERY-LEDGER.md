@@ -182,4 +182,23 @@ Stały rejestr zmian projektowych, produkcyjnych i governance dla C:\myAI_System
   - uruchomienie `start-myai-system-safe.ps1`
   - odczyt `reports/post-restart-check.txt`
 
+### Docker WSL Canonicalization And Backend Recovery
+
+- Status: done
+- Category: recovery, docker, wsl, storage-pathing
+- Scope:
+  - ustawiono kanoniczny katalog Docker Desktop WSL na `P:\DockerEngine\DockerDesktopWSL`
+  - wykonano backup `settings-store.json` przed zmiana konfiguracji
+  - zarchiwizowano historyczne katalogi mieszane pod `P:\DockerEngine\_ARCHIVE` bez destrukcji danych
+  - potwierdzono poprawny start `docker-desktop` i dostepnosc daemon API
+  - potwierdzono uruchamialnosc `Ubuntu-24.04-P` z terminala
+- Key Files:
+  - `docs/work-logs/20260708144008-docker-wsl-canonicalization-and-recovery.md`
+  - `docs/reports/20260708144008-docker-wsl-canonicalization-and-recovery-report.md`
+  - `backups/config-backups/docker-settings-store.latest.backup.json`
+- Validation:
+  - `wsl -l -v --all`
+  - `docker version`
+  - odczyt `CustomWslDistroDir` z `settings-store.json`
+
 
